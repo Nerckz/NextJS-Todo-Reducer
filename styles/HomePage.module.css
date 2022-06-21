@@ -1,0 +1,19 @@
+.mainContainer {
+  display: flex;
+  height: 100vh;
+  padding: 20px;
+  width: 100vw;
+}
+
+.mainContainerLeft {
+  display: flex;
+  border-right: 1px solid white;
+  flex: 11;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+.mainContainerRight {
+  flex: 5;
+  padding: 0px 30px;
+}
